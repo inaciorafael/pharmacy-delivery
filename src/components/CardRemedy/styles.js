@@ -4,7 +4,7 @@ export const Container = styled.View`
     margin-left: 30px;
     margin-top: 30px;
     width: 240px;
-    height: 320px;
+    height: 100px;
 `;
 
 export const ImageContainer = styled.View`
@@ -31,4 +31,12 @@ export const Description = styled.Text`
 export const Details = styled.Text`
     color: #34C47C;
     font-size: 13px;
+`;
+
+export const PrescritionsDetails = styled.Text`
+    margin-left: 5px;
+`;
+
+export const PrescriptionPrice = styled.Text`
+    margin-left: 8px;
 `;
